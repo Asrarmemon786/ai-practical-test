@@ -1,1 +1,1 @@
-# setup a project
+# Setup a project
