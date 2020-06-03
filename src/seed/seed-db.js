@@ -39,8 +39,6 @@ const data  = [{
 }]
 
 User.create(data).then((userinfo) => {
-    Counter.create({_id: 'userId', counter: 5}).then(() => {
-        console.log(`${data.length} users created`)
-    })
+    console.log(`${data.length} users created`)
     // await Counter.findOneAndUpdate(})
 })

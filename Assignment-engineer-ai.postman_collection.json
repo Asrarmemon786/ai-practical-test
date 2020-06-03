@@ -1,0 +1,463 @@
+{
+	"id": "2e66b49b-c06e-f893-f6da-636e915a3500",
+	"name": "Assignment-engineer-ai",
+	"description": "",
+	"order": [
+		"ab20e3eb-bdce-24bc-f861-1b0527c8a22a",
+		"a0ea9325-66ce-2a95-2d7f-d529c6747386",
+		"7788fed6-215e-5f26-6624-95a35f508e54",
+		"5c808365-a0d4-8803-df39-3156d17bbe3e",
+		"fe37e662-c798-8f99-9449-b2da435a0494"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1591169256972,
+	"owner": "11608066",
+	"public": false,
+	"requests": [
+		{
+			"id": "5c808365-a0d4-8803-df39-3156d17bbe3e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3010/api/user/5",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "2e66b49b-c06e-f893-f6da-636e915a3500",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:3010/api/user/5",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1591170889354,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 111,
+					"headers": [
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "31",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 03 Jun 2020 07:54:42 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"1f-W+nAuB2WoFfXCJf017kGogymC54\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"n\":1,\"ok\":1,\"deletedCount\":1}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "http://localhost:3010/api/user/5",
+					"id": "4080ad96-8598-48ac-26ee-dbd37a0b43cb",
+					"request": {
+						"url": "http://localhost:3010/api/user/5",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "DELETE",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7788fed6-215e-5f26-6624-95a35f508e54",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3010/api/user/5",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "2e66b49b-c06e-f893-f6da-636e915a3500",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3010/api/user/5",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1591170865215,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"firstName\": \"frognupdate\",\n        \"lastName\": \"jest\",\n       \"email\": \"affbg@relativity.com\"\n}"
+		},
+		{
+			"id": "a0ea9325-66ce-2a95-2d7f-d529c6747386",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3010/api/user",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "2e66b49b-c06e-f893-f6da-636e915a3500",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3010/api/user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1591170783555,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 506,
+					"headers": [
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "118",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 03 Jun 2020 07:52:53 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"76-SExVIazpuylbkimlJKLSXd5c54Y\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"_id\":\"5ed756d5584bd6220400466e\",\"firstName\":\"frogn\",\"lastName\":\"jest\",\"email\":\"affbg@relativity.com\",\"id\":5,\"__v\":0}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "http://localhost:3010/api/user",
+					"id": "71ecb7f8-df01-8948-ff63-a9c70593b652",
+					"request": {
+						"url": "http://localhost:3010/api/user",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headers": "Content-Type: application/json\n",
+						"data": "{\n\t\"firstName\": \"frogn\",\n        \"lastName\": \"jest\",\n       \"email\": \"affbg@relativity.com\"\n}",
+						"method": "POST",
+						"dataMode": "raw"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"firstName\": \"frogn\",\n        \"lastName\": \"jest\",\n       \"email\": \"affbg@relativity.com\"\n}"
+		},
+		{
+			"id": "ab20e3eb-bdce-24bc-f861-1b0527c8a22a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3010/api/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2e66b49b-c06e-f893-f6da-636e915a3500",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3010/api/users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1591169278432,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 2649,
+					"headers": [
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "473",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 03 Jun 2020 07:50:56 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"1d9-X7s+R3JAgJu4U4ny4zE7kSGi24k\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "[{\"_id\":\"5ed755fd72c4ac262871e9ef\",\"id\":3,\"firstName\":\"issac\",\"lastName\":\"newton\",\"email\":\"in@gravity.com\",\"__v\":0},{\"_id\":\"5ed755fd72c4ac262871e9f0\",\"id\":4,\"firstName\":\"galileo\",\"lastName\":\"galilei\",\"email\":\"gg@astronomy.com\",\"__v\":0},{\"_id\":\"5ed755fd72c4ac262871e9ee\",\"id\":2,\"firstName\":\"marie\",\"lastName\":\"curie\",\"email\":\"mc@radiation.com\",\"__v\":0},{\"_id\":\"5ed755fd72c4ac262871e9ed\",\"id\":1,\"firstName\":\"albert\",\"lastName\":\"einstein\",\"email\":\"ae@relativity.com\",\"__v\":0}]",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "http://localhost:3010/api/users",
+					"id": "4ba49389-099c-93f2-f107-a0eb27dff8cc",
+					"request": {
+						"url": "http://localhost:3010/api/users",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"name": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headers": "Content-Type: application/json\n",
+						"data": "{\n\t\"firstName\": \"frogn\",\n        \"lastName\": \"jest\",\n       \"email\": \"affbg@relativity.com\"\n}",
+						"method": "GET",
+						"dataMode": "raw"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"firstName\": \"asrarq\",\n\t\"lastName\": \"lastName\",\n\t\"email\": \"a@gmail.com\"\n}"
+		},
+		{
+			"id": "fe37e662-c798-8f99-9449-b2da435a0494",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3010/api/typeahead/albert",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2e66b49b-c06e-f893-f6da-636e915a3500",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:3010/api/typeahead/albert",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1591170944618,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 44,
+					"headers": [
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "122",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Wed, 03 Jun 2020 07:55:38 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"7a-1KWs9n1T43JkSnylWJQcYiQAlZU\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "[{\"_id\":\"5ed755fd72c4ac262871e9ed\",\"id\":1,\"firstName\":\"albert\",\"lastName\":\"einstein\",\"email\":\"ae@relativity.com\",\"__v\":0}]",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "http://localhost:3010/api/typeahead/albert",
+					"id": "6283050e-80a5-191a-795d-ac9667808b1e",
+					"request": {
+						"url": "http://localhost:3010/api/typeahead/albert",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
